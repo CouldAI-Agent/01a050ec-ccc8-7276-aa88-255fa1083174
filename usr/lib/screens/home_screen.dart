@@ -15,9 +15,9 @@ class HomeScreen extends StatelessWidget {
       ),
       body: ListView.builder(
         padding: const EdgeInsets.all(16),
-        itemCount: exams.length,
+        itemCount: mockExams.length,
         itemBuilder: (context, index) {
-          final exam = exams[index];
+          final exam = mockExams[index];
           return Card(
             elevation: 2,
             margin: const EdgeInsets.only(bottom: 16),
